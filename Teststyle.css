@@ -1,0 +1,23 @@
+﻿body {
+    /*Remember to use CSS in the style element rather than within other elements*/
+    background-color: #ffc184;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+p {
+    font-family: Arial;
+}
+
+.list {
+    font-family: 'Comic Sans MS';
+}
+
+#maintitle {
+    font-family: 'Comic Sans MS';
+    font-size: 200%;
+}

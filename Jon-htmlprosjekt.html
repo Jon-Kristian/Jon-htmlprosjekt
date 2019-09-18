@@ -3,46 +3,39 @@
 <html>
 <head lang="en-us">
     <title>Test oppgave for html</title>
-    <style>
-        body {
-            /*Remember to use CSS in the style element rather than within other elements*/
-            background-color: #ffc184;
-            text-align: center;
-        }
-
-        h1 {
-            font-family:Arial;
-            font-size:30px;
-        }
-        p {
-            font-family:Arial;
-        }
-    </style>
+    <link rel="stylesheet" href="Teststyle.css" />
 </head>
+
 <body>
-    <h1 title="Just a header">Test header</h1>
+
+    <h1 id="maintitle" title="Just a header">Test header</h1>
     <p title="Just a paragraph">Test paragraph</p>
     <a href="C:\Users\Jobb-PC\Documents\Test oppgaver.html" title="Just a hyperlink">Test hyperlink</a>
-    <br/>
-    <img src="https://ih0.redbubble.net/image.339368667.4600/flat,550x550,075,f.u2.jpg" width="200" height="200" alt="Have a alt-test." title="Have a day."/>
-    <hr/>
-    <br/>
+    <br />
+    <img src="https://ih0.redbubble.net/image.339368667.4600/flat,550x550,075,f.u2.jpg" width="200" height="200" alt="Have a alt-test." title="Have a day." />
+
+    <hr />
+
+    <br />
     <button onclick="window.location.href = 'Test oppgaver.html';">Test button</button>
     <p>To refresh page, click on the button.</p>
     <hr />
-    <p style="color:red;" title="Unordered list with some spicy red text">Test unordered list</p>
-    <ul>
+    
+    <p style="color:red;" class="list" title="Unordered list with some spicy red text">Test unordered list</p>
+    <ul class="list">
         <li>Test</li>
         <li>Test</li>
         <li>Test</li>
     </ul>
-    <p style="color:blue;" title="Ordered list with a cold blue text">Test ordered list</p>
-    <ol>
+    <p style="color:blue;" class="list" title="Ordered list with a cold blue text">Test ordered list</p>
+    <ol class="list">
         <li>Test</li>
         <li>Test</li>
         <li>Test</li>
     </ol>
+
     <hr />
+
     <p title='Title "quotation" test.'>Paragraph quotation test.</p>
     <h2 style="font-size:20px;" title="Font size set to 20 pixels...">Font size test.</h2>
     <pre>Testing the
@@ -50,15 +43,20 @@
 here.</pre>
     <h3 id="headerTest1" title="font-family">Testing font style.</h3>
     <p style="font-size:200%;" title="Not even a header">Test font-size</p>
+
     <hr />
+
     <p title="b for bold, i for italics, sub for subscript, sup for superscript">Testing <b>bold</b>, <i>italics</i>, <sub>subscript</sub>and <sup>superscript</sup>.</p>
     <p title="this text has been lined over by the del element and ins element."><del><ins>TEST</ins></del></p>
     <p title="bold is not strong enough to emphasise this text"><strong><em>Test</em></strong></p>
     <p title="Just some small marked testing, do not question."><mark><small>test...</small></mark></p>
+
     <hr />
+
     <p title="Quotations by using the q elemnent">What do you mean <q>Just testing quotatians?</q></p>
     <p title="I dunno why or what this is supposed to be used for but okay then.">Some quote or w/e...</p>
-    <blockquote cite="http://www.script-o-rama.com/movie_scripts/a1/bee-movie-script-transcript-seinfeld.html"><pre>
+    <blockquote cite="http://www.script-o-rama.com/movie_scripts/a1/bee-movie-script-transcript-seinfeld.html">
+        <pre>
         According to all known laws
         of aviation,
 
@@ -80,15 +78,19 @@ here.</pre>
     <p title="Address element being used here">Testing address element below...</p>
     <address>Code written by Jon Kristian Engnes <br />Quotation found by Jon Kristian Engnes <br />Read by whoever this is...</address>
     <p title="cite element, for those who needs some more italics to explain a title."><cite>The test</cite> by Jon Kristian Engnes... 2019</p>
-    <bdo dir="rtl"; title="This test is mirrored.">This test is mirrored.</bdo>
+    <bdo dir="rtl" ; title="This test is mirrored.">This test is mirrored.</bdo>
+
     <hr />
+
     <!--This can't be seen-->
     <p title="hint, it's a comment...">There's something invisible here...</p>
     <!--How spooky!-->
+
     <hr />
+
     <h1 style="background-color:aqua;" title="Just background color">Test</h1>
     <p style="background-color:blue; color:orange;" title="Background color WITH text color!">Test</p>
     <p style="border:4px solid red; background-color:green; color:blue;" title="Background color, text color and a BORDER!">Test</p>
-
+    
 </body>
 </html>
