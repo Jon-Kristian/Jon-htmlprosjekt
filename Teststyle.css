@@ -72,3 +72,11 @@ a:visited {
     height: 250px;
     margin:0 auto;
 }
+#svarTest {
+    border:2px solid red;
+    width:150px;
+    height:20px;
+    position:relative;
+    margin:auto;
+    background-color:lightcoral;
+}
