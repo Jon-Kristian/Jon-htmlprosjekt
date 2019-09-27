@@ -98,12 +98,18 @@ here.</pre>
 
     
     <div id="svarTest"></div>
-    <div id="testJ" onclick="clickHere()">Mooer Ana Echo?</div>
-    <div id="testJ" onclick="clickHere()">Ler du?</div>
-    <div id="testJ" onclick="clickHere()">Ler du?</div>
+    <div id="testJ" onclick="noHere()">Mooer Ana Echo?</div>
+    <div id="testJ" onclick="clickHere()">Boss DS-1 distortion pedal?</div>
+    <div id="testJ" onclick="notThis()">Landlord FX banging hangover Reverb pedal?</div>
     <script>
         function clickHere() {
             document.getElementById('svarTest').innerHTML = 'Riktig!';
+        }
+        function noHere() {
+            document.getElementById('svarTest').innerHTML = 'Ikke ennå...';
+        }
+        function notThis() {
+            document.getElementById('svarTest').innerHTML = 'Nei ikke denne heller...';
         }
 
     </script>
