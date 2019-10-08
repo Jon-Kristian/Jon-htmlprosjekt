@@ -2,6 +2,7 @@
 
 <html>
 <head lang="en-us">
+    <script src="Script1.js"></script>
     <title>Test oppgave for html</title>
     <link rel="stylesheet" href="Teststyle.css" />
 </head>
@@ -101,20 +102,8 @@ here.</pre>
     <div id="testJ" onclick="noHere()">Mooer Ana Echo?</div>
     <div id="testJ" onclick="clickHere()">Boss DS-1 distortion pedal?</div>
     <div id="testJ" onclick="notThis()">Landlord FX banging hangover Reverb pedal?</div>
-    <script>
-        function clickHere() {
-            document.getElementById('svarTest').innerHTML = 'Riktig!';
-            document.getElementById('svarTest').style.color = 'green';
-        }
-        function noHere() {
-            document.getElementById('svarTest').innerHTML = 'Ikke ennå...';
-            document.getElementById('svarTest').style.color = 'red';
-        }
-        function notThis() {
-            document.getElementById('svarTest').innerHTML = 'Nei ikke denne heller...';
-            document.getElementById('svarTest').style.color = 'red';
-        }
-        
-    </script>
+    <br />
+    <div id="aBox"onmouseover="hoverMouse" src="idGaf(this)"></div>
+
 </body>
 </html>
