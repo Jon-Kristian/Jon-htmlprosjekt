@@ -11,6 +11,21 @@ function notThis() {
     document.getElementById('svarTest').innerHTML = 'Nei ikke denne!';
     document.getElementById('svarTest').style.color = 'red';
 }
-function idGaf() {
-    document.getElementById('listdiv').innerHTML;
+function misterFunky() {
+    alert('Slutt med det der...');
+}
+function hoverMouse() {
+    document.getElementById('aBox').innerHTML = 'Test!';
+}
+function noMouse() {
+    document.getElementById('aBox').innerHTML = '';
+}
+function thisTest(clickMe) {
+    console.log(clickMe.id);
+    clickMe.innerHTML = 'Jammen da så';
+}
+function kodeF(mottatTrykk) {
+    var kodeOrd = document.getElementById('output');
+
+    kodeOrd.innerHTML += mottatTrykk.innerHTML;
 }

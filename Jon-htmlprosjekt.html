@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE html>
 
 <html>
-<head lang="en-us">
+<head lang="en">
     <script src="Script1.js"></script>
     <title>Test oppgave for html</title>
     <link rel="stylesheet" href="Teststyle.css" />
+    <meta charset="utf-8" />
 </head>
 
 <body>
@@ -103,7 +104,29 @@ here.</pre>
     <div id="testJ" onclick="clickHere()">Boss DS-1 distortion pedal?</div>
     <div id="testJ" onclick="notThis()">Landlord FX banging hangover Reverb pedal?</div>
     <br />
-    <div id="aBox"onmouseover="hoverMouse" src="idGaf(this)"></div>
-
-</body>
+    <div id="aBox"onmouseover="hoverMouse()" onmouseout="noMouse()" ></div>
+    <br />
+    <input type="text" onChange="misterFunky()" />
+    <br />
+    <div id="huffDa" onclick="thisTest(this)">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+    <br />
+    <hr />
+    <br />
+    
+    <div id="trykklitt">Her kan du trykke litt rundt!</div>
+    <div class="grid-container"></div>
+        <div id="kode1" class="grid-item" onclick="kodeF(this)">1</div>
+        <div id="kode2" class="grid-item" onclick="kodeF(this)">2</div>
+        <div id="kode3" class="grid-item" onclick="kodeF(this)">3</div>
+ 
+        <div id="kode4" class="grid-item" onclick="kodeF(this)">4</div>
+        <div id="kode5" class="grid-item" onclick="kodeF(this)">5</div>
+        <div id="kode6" class="grid-item" onclick="kodeF(this)">6</div>
+ 
+        <div id="kode7" class="grid-item" onclick="kodeF(this)">7</div>
+        <div id="kode8" class="grid-item" onclick="kodeF(this)">8</div>
+        <div id="kode9" class="grid-item" onclick="kodeF(this)">9</div>
+         
+    <div id="output"></div>
+    </body>
 </html>
