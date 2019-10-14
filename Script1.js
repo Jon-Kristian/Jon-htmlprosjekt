@@ -1,4 +1,4 @@
-// JavaScript source code
+// 
 function clickHere() {
     document.getElementById('svarTest').innerHTML = 'Riktig!';
     document.getElementById('svarTest').style.color = 'green';
